@@ -1,0 +1,53 @@
+<svg width="512" height="512" id="hexatar-preview" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+    <g id="hexatar-background"><g class="hexatar-base">
+		<rect class="col-obj" x="-0.004" y="0.003" style="fill: rgb(255, 255, 255);" width="512" height="512"></rect>
+	</g></g>
+	<g id="hexatar-hair-rear"></g>
+	<g id="hexatar-bodies" transform="matrix(1.5735,0,0,1.5735,-146.8665,-242.446)">
+		<g id="hexatar-body">
+			<polygon class="col-obj" style="fill: rgb(254, 226, 208);" points="380.515,465 301,451 301,334 211,334 211,451 131.636,465 94.115,512   418.035,512 "></polygon>
+			<polygon class="shadow-obj" style="fill: rgb(253, 195, 158);" points="380.541,465 301,451 301,334 256,334 256,512 418.062,512 "></polygon>
+			<polygon id="hexatar-neck-control" class="shadow-obj-2x" style="opacity: 0.5; fill: rgb(252, 164, 108);" points="301.054,387.482 255.998,427.693 210.942,384.615  210.942,333.485 301.054,333.485 "></polygon>
+		</g>
+		<g id="hexatar-clothes"><g class="hexatar-base">
+		<polygon class="col-obj" style="fill: rgb(152, 173, 0);" points="382.755,464.994 327.838,443.335 256.039,473.857 184.168,443.335  129.243,464.994 92.159,511.994 419.839,511.994"></polygon>
+		<path class="shadow-obj" style="opacity: 0.4; fill: rgb(107, 122, 0);" d="M92.159,511.994L140.836,512l-11.37-47.006L92.159,511.994z M383.147,464.994L372.426,512l48.028-0.006L383.147,464.994z"></path>
+		<polygon class="white-obj" style="fill:#FFFFFF;" points="320.755,426.47 301.023,426.47 301.023,446.694 256.019,473.857  210.971,446.489 211.014,426.47 191.282,426.47 182.739,443.064 221.607,510.26 256.02,473.891 293.495,510.263 329.298,443.064"></polygon>
+		<path class="static-obj" style="opacity:0.8;fill:#CCCCCC;" d="M301.055,435.159l-0.143,11.644l14.491-11.644H301.055z M195.803,435.159l15.168,11.381l-0.028-11.381H195.803z"></path>
+	</g></g>
+	</g>
+	<g id="hexatar-faces">
+		<g id="hexatar-ears"><g class="hexatar-base">
+		<g class="hexatar-ears-right"> 	<polygon class="col-obj" style="fill: rgb(254, 226, 208);" points="172.062,168.76 172.062,238.392 127.687,238.392 109.255,203.576  127.687,168.76"></polygon> 	<polygon class="shadow-obj" style="fill: rgb(253, 195, 158);" points="137.955,219.998 129.261,203.576 137.955,187.154 172.062,187.154  172.062,219.998"></polygon>
+		</g>
+		<g class="hexatar-ears-left"> 	<polygon class="shadow-obj" style="fill: rgb(253, 195, 158);" points="340.163,238.392 340.163,168.76 382.976,168.76 401.408,203.576  382.976,238.392"></polygon> 	<polygon class="shadow-obj-2x" style="fill: rgb(252, 164, 108);" points="372.708,187.154 381.402,203.576 372.708,219.998  340.163,219.998 340.163,187.154"></polygon>
+		</g>
+	</g></g>
+		<g id="hexatar-face"><g class="hexatar-base">
+		<polygon class="col-obj" style="fill: rgb(254, 226, 208);" points="256.005,7.17 153.605,71.355 153.605,291.893 216.444,386.05  248.348,386.05 296.385,386.05 358.404,291.893 358.404,71.355"></polygon>
+		<polygon class="shadow-obj" style="fill: rgb(253, 195, 158);" points="256.006,7.17 256.005,386.05 264.637,386.05 296.385,386.05  358.404,291.893 358.405,71.355"></polygon>
+	</g></g>
+		<g id="hexatar-mouth"></g>
+		<g id="hexatar-beard"></g>
+		<g id="hexatar-mustache"></g>
+		<g id="hexatar-nose"></g>
+		<g id="hexatar-eyeGroup">
+			<g id="hexatar-eye"></g>
+			<g id="hexatar-eyebrows"></g>	
+		</g>
+		<g id="hexatar-hair-front"><g class="element-front">
+			<polygon class="col-obj" style="fill: rgb(104, 104, 104);" points="256.208,6.901 154,71.356 154,175 173,175 173,72.492 200.551,100 339,100  339,175 358,175 358,71.356"></polygon>
+			<polygon class="shadow-obj" style="opacity: 0.4; fill: rgb(78, 78, 78);" points="256,6.901 256,100 339,100 339,175 358,175 358,71.356"></polygon>
+		</g></g>
+		<g id="hexatar-hat"></g>
+		<g id="hexatar-eyeglasses" transform="matrix(1.0564,0,0,1.0564,-14.4384,-11.5024)"><g class="hexatar-base">
+		<g class="hexatar-eyeglasses-right">
+			<path class="col-obj" style="fill: rgb(33, 33, 33);" d="M245.242,180.436c-13.782-9.577-62.58-5.999-72.885-0.953 c-3.4,1.665-5.544,4.862-6.652,8.893l-6.659,1.065c-1.942,1.171-1.838,7.462,0.002,10.473l6.121,1.145 c0.909,6.871,3.472,14.133,7.204,19.99c10.197,16.007,45.721,15.871,59.835,7.463c7.858-4.682,13.752-14.969,16.397-24.958 c3.981-9.379,7.395-8.281,7.395-8.281v-9.691C252.301,185.581,251.451,183.463,245.242,180.436z M228.231,224.58 c-11.851,7.06-41.751,6.514-50.241-6.266c-7.705-11.598-9.406-30.296,0-34.901c9.406-4.605,57.02-7.756,63.527,3.156 C246.71,195.275,240.083,217.52,228.231,224.58z"></path>
+		</g>
+		<g class="hexatar-eyeglasses-left">
+			<path class="col-obj" style="fill: rgb(33, 33, 33);" d="M352.954,189.44l-6.663-1.065c-1.108-4.031-3.26-7.228-6.66-8.893 c-10.341-5.063-59.485-8.649-73.074,1.052c-6.018,2.976-6.858,5.047-10.558,5.047v9.691c0,0,3.327-1.065,7.235,7.905 c2.595,10.106,8.589,20.593,16.546,25.333c14.114,8.408,49.646,8.544,59.843-7.463c3.732-5.858,6.298-13.119,7.207-19.99 l6.121-1.145C354.792,196.902,354.896,190.611,352.954,189.44z M333.962,218.289c-8.475,12.758-38.323,13.303-50.154,6.255 s-18.446-29.254-13.263-37.945c6.496-10.893,54.027-7.748,63.417-3.15C343.352,188.046,341.654,206.711,333.962,218.289z"></path>
+			<path class="shadow-obj" style="opacity: 0.4; fill: rgb(7, 7, 7);" d="M352.954,189.44l-6.663-1.065c-1.108-4.031-3.26-7.228-6.66-8.893 c-10.341-5.063-59.485-8.649-73.074,1.052c-6.018,2.976-6.858,5.047-10.558,5.047v9.691c0,0,3.327-1.065,7.235,7.905 c2.595,10.106,8.589,20.593,16.546,25.333c14.114,8.408,49.646,8.544,59.843-7.463c3.732-5.858,6.298-13.119,7.207-19.99 l6.121-1.145C354.792,196.902,354.896,190.611,352.954,189.44z M333.962,218.289c-8.475,12.758-38.323,13.303-50.154,6.255 s-18.446-29.254-13.263-37.945c6.496-10.893,54.027-7.748,63.417-3.15C343.352,188.046,341.654,206.711,333.962,218.289z"></path>
+		</g>
+	</g></g>
+	</g>
+	<desc>Avatar generated from Hexatar.com - created with Snap</desc><text transform="matrix(1 0 0 1 0 528)" font-size="12">Avatar generated from Hexatar.com</text></svg>

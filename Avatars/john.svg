@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="hexatar-preview" style="enable-background:new 0 0 512 512;" viewBox="0 0 512 512" x="0px" y="0px" width="512" height="512" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve">
+    <g id="hexatar-background"><g class="hexatar-base">
+		<rect class="col-obj" style="fill: #ffffff;" x="-0.004" y="0.003" width="512" height="512" />
+	</g></g>
+	<g id="hexatar-hair-rear" />
+	<g id="hexatar-bodies">
+		<g id="hexatar-body">
+			<polygon class="col-obj" style="fill: #f5dac3;" points="380.515,465 301,451 301,334 211,334 211,451 131.636,465 94.115,512 418.035,512" />
+			<polygon class="shadow-obj" style="fill: #eebf97;" points="380.541,465 301,451 301,334 256,334 256,512 418.062,512" />
+			<polygon class="shadow-obj-2x" id="hexatar-neck-control" style="opacity: 0.5; fill: #e7a46b;" points="301.054,387.482 255.998,427.693 210.942,384.615 210.942,333.485 301.054,333.485" />
+		</g>
+		<g id="hexatar-clothes"><g class="hexatar-base">
+		<path class="col-obj" style="fill: #222222;" d="M 382.755 464.994 l -65.947 -13.116 c 0 0 -18.458 37.255 -60.549 37.255 s -59.201 -37.731 -59.201 -37.731 l -67.814 13.592 l -35.127 47 h 325.666 L 382.755 464.994 Z" />
+		<path class="shadow-obj" style="opacity: 0.8; fill: #080808;" d="M 256.258 489.134 c -42.091 0 -59.201 -37.731 -59.201 -37.731 l -9.545 1.953 c 4.928 9.093 25.848 47.451 68.735 47.451 c 43 0 65.106 -38.11 70.284 -46.986 l -9.724 -1.942 C 316.807 451.878 298.35 489.134 256.258 489.134 Z" />
+	</g></g>
+	</g>
+	<g id="hexatar-faces">
+		<g id="hexatar-ears"><g class="hexatar-base">
+		<g class="hexatar-ears-right"> 	<polygon class="col-obj" style="fill: #f5dac3;" points="172.062,168.76 172.062,238.392 127.687,238.392 109.255,203.576 127.687,168.76" /> 	<polygon class="shadow-obj" style="fill: #eebf97;" points="137.955,219.998 129.261,203.576 137.955,187.154 172.062,187.154 172.062,219.998" />
+		</g>
+		<g class="hexatar-ears-left"> 	<polygon class="shadow-obj" style="fill: #eebf97;" points="340.163,238.392 340.163,168.76 382.976,168.76 401.408,203.576 382.976,238.392" /> 	<polygon class="shadow-obj-2x" style="fill: #e7a46b;" points="372.708,187.154 381.402,203.576 372.708,219.998 340.163,219.998 340.163,187.154" />
+		</g>
+	</g></g>
+		<g id="hexatar-face"><g class="hexatar-base">
+		<path class="col-obj" style="fill: #f5dac3;" d="M 256.005 7.17 l -102.4 64.185 l 0 215.354 c 0 30.805 15.891 59.432 42.035 75.724 l 29.615 18.455 c 18.815 11.725 42.668 11.701 61.46 -0.062 l 29.805 -18.657 c 26.058 -16.311 41.883 -44.887 41.883 -75.629 l 0 -215.185 L 256.005 7.17 Z" />
+		<path class="shadow-obj" style="fill: #eebf97;" d="M 286.716 380.827 L 286.716 380.827 l 29.806 -18.657 c 26.058 -16.311 41.883 -44.887 41.883 -75.629 V 71.355 L 256.005 7.17 l -0.001 382.495 C 266.666 389.652 277.323 386.706 286.716 380.827 Z" />
+	</g></g>
+		<g id="hexatar-mouth" />
+		<g id="hexatar-beard"><g class="hexatar-base">
+		<path class="col-obj" style="fill: #424242;" d="M 339.689 227.765 v 73.6 l -55.127 57.466 h -8.792 c -4.131 0 -7.479 -3.349 -7.479 -7.479 l 0 0 l -0.003 -16.268 h -24.384 l -0.003 16.268 l 0 0 c 0 4.131 -3.349 7.479 -7.479 7.479 h -6.813 l -57.071 -55.342 v -75.724 h -18.924 v 127.667 c 0 15.227 9.176 28.953 23.247 34.774 l 32.65 13.507 c 13.269 5.489 27.488 8.314 41.847 8.314 h 10.93 c 14.699 0 29.248 -2.96 42.779 -8.705 l 30.621 -13 c 13.9 -5.901 22.926 -19.539 22.926 -34.64 V 227.765 H 339.689 Z" />
+		<path class="shadow-obj" style="opacity: 0.4; fill: #282828;" d="M 339.689 227.765 v 73.6 l -55.127 57.466 h -8.792 c -4.131 0 -7.479 -3.349 -7.479 -7.479 l 0 0 l -0.003 -16.268 h -12.193 v 76.943 h 6.193 c 14.699 0 29.248 -2.96 42.779 -8.705 l 30.621 -13 c 13.9 -5.901 22.926 -19.539 22.926 -34.64 V 227.765 H 339.689 Z" />
+	</g></g>
+		<g id="hexatar-mustache"><g class="hexatar-base">
+		<path class="col-obj" style="fill: #424242;" d="M 250.03 364.56 c 2.301 5.217 9.703 5.217 12.004 0 l 7.067 -16.026 h -26.138 L 250.03 364.56 Z M 302.963 291.98 L 302.963 291.98 c -10.683 -17.907 -27.3 -31.506 -46.966 -38.437 h 0 c -19.666 6.931 -36.283 20.53 -46.966 38.437 l 0 0 c -6.67 11.181 -10.192 23.958 -10.192 36.977 v 2.289 l 57.158 -37.603 l 57.158 37.603 v -2.289 C 313.155 315.938 309.633 303.161 302.963 291.98 Z" />
+		<path class="shadow-obj" style="opacity: 0.4; fill: #282828;" d="M 255.997 368.47 c 2.438 0.013 4.881 -1.289 6.037 -3.911 l 7.067 -16.026 h -13.104 V 368.47 Z M 302.963 291.98 L 302.963 291.98 c -10.683 -17.907 -27.3 -31.506 -46.966 -38.437 v 40.101 l 57.158 37.603 v -2.289 C 313.155 315.938 309.633 303.161 302.963 291.98 Z" />
+	</g></g>
+		<g id="hexatar-nose" />
+		<g id="hexatar-eyeGroup">
+			<g id="hexatar-eye" />
+			<g id="hexatar-eyebrows" />	
+		</g>
+		<g id="hexatar-hair-front" />
+		<g id="hexatar-hat" />
+		<g id="hexatar-eyeglasses" />
+	</g>
+	<rect id="hx-size-control" style="opacity:0;fill:#FFFFFF;" width="256" height="512" />
+	<rect id="hx-pos-control" style="opacity:0;fill:#FFFFFF;" x="256" width="256" height="512" />
+<desc>Created with Snap</desc><defs /></svg>

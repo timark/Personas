@@ -1,0 +1,48 @@
+<svg width="512" height="512" id="hexatar-preview" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+    <g id="hexatar-background"><g class="hexatar-base">
+		<rect class="col-obj" x="-0.004" y="0.003" style="fill: rgb(243, 233, 214);" width="512" height="512"></rect>
+	</g></g>
+	<g id="hexatar-hair-rear"></g>
+	<g id="hexatar-bodies" transform="matrix(1.3,0,0,1.3,-76.7999,-126.8227)">
+		<g id="hexatar-body">
+			<polygon class="col-obj" style="fill: rgb(221, 161, 105);" points="380.515,465 301,451 301,334 211,334 211,451 131.636,465 94.115,512   418.035,512 "></polygon>
+			<polygon class="shadow-obj" style="fill: rgb(212, 135, 63);" points="380.541,465 301,451 301,334 256,334 256,512 418.062,512 "></polygon>
+			<polygon id="hexatar-neck-control" class="shadow-obj-2x" style="opacity: 0.5; fill: rgb(183, 110, 41);" points="301.054,387.482 255.998,427.693 210.942,384.615  210.942,333.485 301.054,333.485 "></polygon>
+		</g>
+		<g id="hexatar-clothes"><g class="hexatar-base">
+		<polygon class="col-obj" style="fill: rgb(42, 9, 119);" points="382.755,464.994 345.102,456.366 342.573,447.966 329.267,439.566  320.73,419.2 301.055,410.201 300.909,449.043 256.039,503.229 211.014,448.261 211.014,410.201 191.282,419.2 182.739,439.566  169.43,447.966 166.897,456.366 129.243,464.994 92.159,511.994 419.839,511.994"></polygon>
+		<path class="shadow-obj-2x" style="opacity: 0.8; fill: rgb(8, 2, 24);" d="M268.224,511.994h11.112l62.881-53.128L268.224,511.994z M315.402,424.396l-8.197,3.291l-6.15-4.693l0.028,26.221L315.402,424.396z M210.943,424.396l-7.975,4.141l-7.165-3.039 l15.168,22.763L210.943,424.396z M232.825,511.994h11.112l-73.992-53.128L232.825,511.994z"></path>
+		<path class="shadow-obj" style="opacity: 0.4; fill: rgb(25, 5, 72);" d="M92.159,511.994h50.261l-13.177-47L92.159,511.994z M382.755,464.994l-11.969,47.003h49.054L382.755,464.994z"></path>
+	</g></g>
+	</g>
+	<g id="hexatar-faces">
+		<g id="hexatar-ears"><g class="hexatar-base">
+		<g class="hexatar-ears-right"> 	<path class="col-obj" style="fill: rgb(221, 161, 105);" d="M172.062,168.76v69.632h-11.593c-18.105,0-32.781-14.677-32.781-32.781V168.76 H172.062z"></path> 	<path class="shadow-obj" style="fill: rgb(212, 135, 63);" d="M160.469,228.392c-12.562,0-22.781-10.22-22.781-22.781V178.76h34.374v49.632 H160.469z"></path>
+		</g>
+		<g class="hexatar-ears-left"> 	<path class="shadow-obj" style="fill: rgb(212, 135, 63);" d="M340.163,238.392V168.76h42.812v36.851c0,18.105-14.677,32.781-32.781,32.781 H340.163z"></path> 	<path class="shadow-obj-2x" style="fill: rgb(183, 110, 41);" d="M340.163,228.392V178.76h32.812v26.851 c0,12.562-10.22,22.781-22.781,22.781H340.163z"></path>
+		</g>
+	</g></g>
+		<g id="hexatar-face"><g class="hexatar-base">
+		<polygon class="col-obj" style="fill: rgb(221, 161, 105);" points="256.005,7.17 153.605,71.355 153.605,291.893 216.444,386.05  248.348,386.05 296.385,386.05 358.404,291.893 358.404,71.355"></polygon>
+		<polygon class="shadow-obj" style="fill: rgb(212, 135, 63);" points="256.006,7.17 256.005,386.05 264.637,386.05 296.385,386.05  358.404,291.893 358.405,71.355"></polygon>
+	</g></g>
+		<g id="hexatar-mouth"></g>
+		<g id="hexatar-beard"><g class="hexatar-base">
+		<polygon class="col-obj" style="fill: rgb(66, 66, 66);" points="339.689,227.765 339.689,301.365 284.562,358.831 268.29,358.831  268.29,351.351 261.463,335.083 250.726,335.083 243.899,351.351 243.899,358.831 229.607,358.831 172.537,303.489  172.537,227.765 153.613,227.765 153.613,302.339 153.613,376.912 229.607,412.026 284.562,412.026 358.603,376.912  358.603,376.912 358.603,302.339 358.603,227.765"></polygon>
+		<polygon class="shadow-obj" style="opacity: 0.4; fill: rgb(40, 40, 40);" points="339.689,227.765 339.689,301.365 284.562,358.831 268.29,358.831  268.29,351.351 261.463,335.083 256.093,335.083 256.093,412.026 284.562,412.026 358.603,376.912 358.603,376.912  358.603,302.339 358.603,227.765"></polygon>
+		<path class="shadow-obj-2x" style="opacity: 0.2; fill: rgb(14, 14, 14);" d="M153.613,376.912l75.995,35.114l-75.995-109.687V376.912z M282.908,412.026 l75.695-35.114v-74.574L282.908,412.026z"></path>
+	</g></g>
+		<g id="hexatar-mustache"></g>
+		<g id="hexatar-nose" transform="matrix(1,0,0,1,0,27)"></g>
+		<g id="hexatar-eyeGroup">
+			<g id="hexatar-eye" transform="matrix(1,0,0,1,0,10)"></g>
+			<g id="hexatar-eyebrows" transform="matrix(1,0,0,1,0,11)"></g>	
+		</g>
+		<g id="hexatar-hair-front"><g class="element-front">
+			<path class="col-obj" style="fill: rgb(66, 66, 66);" d="M256.005,7.172l-102.4,64.185v147.003h8.982v-40.652h10.283v-57.242 c-0.353-22.366,18.856-38.627,38.38-32.789l12.868,3.847c20.842,6.232,42.844,5.901,63.526-0.955l12.311-4.081 c19.707-6.533,38.157,9.786,38.157,32.536v58.613h12.292v41.051h8l0-147.331L256.005,7.172z"></path>
+			<path class="shadow-obj" style="opacity: 0.4; fill: rgb(40, 40, 40);" d="M256.004,7.172l0.001,88.781c10.691-0.161,21.298-1.957,31.639-5.385 l12.311-4.081c19.707-6.533,38.157,9.786,38.157,32.536v58.613h12.279v40.723h8.013l0-147.003L256.004,7.172z"></path>
+		</g></g>
+		<g id="hexatar-hat"></g>
+		<g id="hexatar-eyeglasses"></g>
+	</g>
+	<desc>Avatar generated from Hexatar.com - created with Snap</desc><text transform="matrix(1 0 0 1 0 528)" font-size="12">Avatar generated from Hexatar.com</text></svg>
