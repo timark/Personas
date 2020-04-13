@@ -1,0 +1,116 @@
+{
+    "Person": {
+        "givenName": "Dan",
+        "familyName": "Sheffield",
+        "genda": {
+            "GenderType": "familyName"
+        },
+        "birthDate": "1988:10:31",
+        "jobTitle": "Housing Officer",
+        "spouse": "",
+        "children": [],
+        "nationality": "British",
+        "knowsAbout": [
+            "Risk Management",
+            "Project Planning",
+            "Performance management",
+            "Web design/development",
+            "Public sector",
+            "Business Analysis",
+            "Program management",
+            "Strategic planning"
+        ]
+    },
+    "status": "single",
+    "personalStatement": "Experienced Housing Officer, with an adept ability to understand all social housing queries and apply the relevant legislation and policies necessary to find the applicable solution. I am educated to degree standard in Computing and hold extensive experience in information management. Prioritizing and completing demanding workloads is one of my strongest skills.",
+    "goals": "Achieve better outcomes using information technology Looking at emigrating to Australia or Canada in a more dynamic environment.",
+    "fustrations": "Career progression difficult within a Housing Association that came from a local Authority. Attitudes to progress in using new technology and methods are stuck in the past",
+
+    "experience": [
+        "Housing Officer 2yr 2m",
+        "Assistant Housing Officer 7m",
+        "Front of House Customer Serive Advisor 1yr 1m"
+    ],
+    "skills": [
+        "Change management",
+        "Customer Service",
+        "Management"
+    ],
+    "industryKnowledge": [
+        "Risk Management",
+        "Project Planning",
+        "Performance management",
+        "Web design/development",
+        "Public sector",
+        "Business Analysis",
+        "Program management",
+        "Strategic planning"
+    ],
+    "interests": [
+        "Defence Housing Australia",
+        "Edge Hill University",
+        "Social Housing Australia",
+        "Welfare reform and housing",
+        "Customer service champions",
+        "Social housing updates"
+    ],
+    "technologies": [{
+            "name": "Social Networks",
+            "experiencePercent": 75
+        },
+        {
+            "name": "Mobile Apps",
+            "experiencePercent": 25
+        },
+        {
+            "name": "Software",
+            "experiencePercent": 50
+        },
+        {
+            "name": "IT & Internet",
+            "experiencePercent": 50
+        }
+    ],
+    "hasOccupation": {
+        "Occupation": {
+            "occupationalCategory": "Housing Official",
+            "responsibilities": [
+                "Liasing with tennants",
+                "Enquiry Managing"
+            ],
+            "skills": [
+                "Office suite",
+                "Microsoft Project",
+                "Interviewing",
+                "report writing"
+            ],
+            "educationalRequirments": {
+                "EducationalOccupationalCredential": {
+                    "competencyRequired": "Degree",
+                    "credentialCategory": "OFQUAL",
+                    "educationalLevel": "Graduate",
+                    "recognizedBy": {
+                        "Organisation": {
+                            "brand": "Insitiute of Housing"
+                        }
+                    }
+                }
+            }
+        }
+
+    },
+    "address": {
+        "PostalAddress": {
+            "addressCountry": "United Kingdom",
+            "addressLocality": "Chester",
+            "addressRegion": "Cheshire"
+        }
+    },
+    "affiliation": {
+
+    },
+    "alumniOf": {
+
+    },
+    "avatarURL": "Avatars/john.png"
+}

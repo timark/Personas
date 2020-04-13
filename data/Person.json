@@ -1,0 +1,21 @@
+{
+    "Person": {
+        "additionalName": "text",
+        "address": {
+            "PostalAddress": {
+                "addressCountry": "text",
+                "addressLocality": "text",
+                "addressRegion": "text",
+                "postOfficeBoxNumber": "text",
+                "postalCode": "text",
+                "streetAddress": "text"
+            }
+        },
+        "affiliation": {
+
+        },
+        "alumniOf": {
+
+        }
+    }
+}

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="scripts/bootstrap/css/bootstrap.min.css">
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="scripts/jquery/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="scripts/bootstrap/js/bootstrap.min.js"></script>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <img id="avatarURL" class="img-fluid rounded-circle border" src="Avatars/architect.png" width="200" align="middle">
+                    </div>
+                    <div class="panel-body">
+                        <h6 class="mt-2 text-uppercase">Demographics</h6>
+                        <div class="small"><b>Age: </b> <span id="age"></span></div>
+                        <div class="small"><b>Occupation: </b><span id="occupation"></span></div>
+                        <div class="small"><b>Status: </b><span id="status"></span></div>
+                        <div class="small"><b>Location: </b><span id="addressLocality"></span></div>
+                        <div class="small"><b>Education: </b><span id="educationalLevel"></span></div>
+                        <h6 class="mt-2 text-uppercase">Experience</h6>
+                        <div id="experience" class="small ">experience</div>
+                        <h6 class="mt-2 text-uppercase">Skills & Endorsements</h6>
+                        <div id="skills" class="small">skills</div>
+                        <h6 class="mt-2 text-uppercase">Industry Knowledge</h6>
+                        <div id="industryKnowledge" class="small">knowledge</div>
+                        <h6 class="mt-2 text-uppercase">Interest</h6>
+                        <div id="interests" class="small">interest</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h2 id="givenName">givenName</h2>
+                        <h2 id="familyName">familyName</h2>
+                        <h4 id="jobTitle">jobTitle</h4>
+                    </div>
+
+                    <div class="panel-body">
+                        <h5 class="text-uppercase border-bottom mt-2">Personal Statement</h5>
+                        <div id="personalStatement" class="font-weight-light"></div>
+
+                        <h5 class="text-uppercase border-bottom mt-2">Goals</h5>
+                        <div id="goals" class="font-weight-light"></div>
+
+                        <h5 class="text-uppercase border-bottom mt-2">Fustrations</h5>
+                        <div id="fustrations" class="font-weight-light"></div>
+
+                        <h5 class="text-uppercase border-bottom mt-2">Technology</h5>
+                        <div id="technologies" class="font-weight-light"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel">
+                    <div class="panel-heading border-bottom mt-2">
+                        <h2 id="jobDescriptionTitle">jobDescriptionTitle</h2>
+                    </div>
+                    <div class="panel-body">
+                        <div id="jobDescription">[Typical Job Description for a Job Web Site]</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel">
+                    <div class="panel-heading border-bottom mt-2">
+                        <h2 id="linkedInProfileTitle">linkedInProfileTitle</h2>
+                    </div>
+                    <div class="panel-body">
+                        <div id="linkedInProfileDescription">[Typical Profile from a LinkedIn profile]</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+
+    <script>
+        $(document).ready(function() {
+            $.get("data/DanSheffield.json", function(data) {
+                console.log(data);
+
+                $("#givenName").html(data.Person.givenName);
+                $("#familyName").html(data.Person.familyName);
+                $("#jobTitle").html(data.Person.jobTitle);
+                $("#personalStatement").html(data.personalStatement);
+                $("#goals").html(data.goals);
+                $("#fustrations").html(data.fustrations);
+                if (data.Person.birthDate != null) {
+                    var dob = new Date(data.Person.birthDate);
+                    var today = new Date();
+                    var age = Math.floor((today - dob) / (365.25 * 24 * 60 * 60 * 1000));
+                    $("#age").html(age);
+                }
+                $("#occupation").html(data.hasOccupation.Occupation.occupationalCategory);
+                $("#addressLocality").html(data.address.PostalAddress.addressLocality);
+                $("#avatarURL").attr("src", data.avatarURL);
+                $("#educationalLevel").html(data.hasOccupation.Occupation.educationalRequirments.EducationalOccupationalCredential.educationalLevel);
+                $("#status").html(data.status);
+
+                var i = 0;
+                var experience = "";
+                while (i < data.experience.length) {
+                    experience += data.experience[i] + "</br>";
+                    i++;
+                }
+                $("#experience").html(experience);
+
+
+                i = 0;
+                var skills = "";
+                while (i < data.skills.length) {
+                    skills += data.skills[i] + "</br>";
+                    i++;
+                }
+                $("#skills").html(skills);
+
+                i = 0;
+                var industryKnowledge = "";
+                while (i < data.industryKnowledge.length) {
+                    industryKnowledge += data.industryKnowledge[i] + "</br>";
+                    i++;
+                }
+                $("#industryKnowledge").html(industryKnowledge);
+
+                i = 0;
+                var interests = "";
+                while (i < data.interests.length) {
+                    interests += data.interests[i] + "</br>";
+                    i++;
+                }
+                $("#interests").html(interests);
+
+                console.log(data.technologies.length)
+                i = 0;
+                var technologies = "";
+                while (i < data.technologies.length) {
+                    technologies += data.technologies[i].name + "<div class='w-" + data.technologies[i].experiencePercent + " p-1' style='background-color: #00eef0;'>" + data.technologies[i].experiencePercent + "%</div>";
+                    i++;
+                }
+                $("#technologies").html(technologies);
+            });
+        });
+    </script>
+</body>
+
+</html>

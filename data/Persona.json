@@ -1,0 +1,79 @@
+{
+    "Person": {
+        "givenName": "text",
+        "familyName": "text",
+        "genda": {
+            "GenderType": "enum"
+        },
+        "birthDate": "date",
+        "jobTitle": "text",
+        "spouse": "",
+        "children": [],
+        "nationality": "enum",
+        "knowsAbout": [
+            "text"
+        ]
+    },
+    "status": "enum",
+    "personalStatement": "text",
+    "goals": "text",
+    "fustrations": "text",
+
+    "experience": [
+        "text"
+    ],
+    "skills": [
+        "text"
+    ],
+    "industryKnowledge": [
+        "text"
+    ],
+    "interests": [
+        "text"
+    ],
+    "technologies": [{
+        "name": "text",
+        "experiencePercent": "number"
+    }],
+    "hasOccupation": {
+        "Occupation": {
+            "occupationalCategory": "text",
+            "responsibilities": [
+                "text"
+            ],
+            "skills": [
+                "text"
+            ],
+            "educationalRequirments": {
+                "EducationalOccupationalCredential": {
+                    "competencyRequired": "text",
+                    "credentialCategory": "text",
+                    "educationalLevel": "text",
+                    "recognizedBy": {
+                        "Organisation": {
+                            "brand": "text"
+                        }
+                    }
+                }
+            }
+        }
+
+    },
+    "address": {
+        "PostalAddress": {
+            "addressCountry": "text",
+            "addressLocality": "text",
+            "addressRegion": "text",
+            "postOfficeBoxNumber": "text",
+            "postalCode": "text",
+            "streetAddress": "text"
+        }
+    },
+    "affiliation": {
+
+    },
+    "alumniOf": {
+
+    },
+    "avatarURL": "url"
+}
