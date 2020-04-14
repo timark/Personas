@@ -14,7 +14,7 @@ For example if the persona is a young Architect who has an interest in healthcar
 ## Schema development
 
 The following sources are being used to develop the persona.schema 
-[shema.org](https:schema.org) this is data store was developed as part of the semantic web and is an RDF intended use by products and retailing. 
+[schema.org](https:schema.org) this is data store was developed as part of the semantic web and is an RDF intended use by products and retailing. 
 
 [schemastore](http://schemastore.org/json/) is a data store of schemas in json-schema
 
