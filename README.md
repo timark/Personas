@@ -6,6 +6,9 @@ The avatars are created using [Hexatar](http://www.hexatar.com/)
 ## What is a persona? 
 It is a fictional character normally used to descibe the end user of an application or service. It helps gives focus to the design of an application. A good explaniation can be found here on [interaction design](https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them)
 
+Personas should be designed from research and this can be from a variety methods or all observation, experience and desktop research.
+I use social media sites like [linkedin](https://www.linkedin.com/jobs) profiles and job vaccancies. If people reference a blog then read that as profiles and experience are sometimes talked up. 
+
 ## Schema development
 
 The following sources are being used to develop the persona.schema 
